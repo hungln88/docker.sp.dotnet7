@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dpjQVI8pYnD7E42MsmGr446FgswRSLqaq50dsTp05Gw=",
+  "Source": "helloDocker8",
+  "BasePath": "_content/helloDocker8",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

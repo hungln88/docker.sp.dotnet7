@@ -1,0 +1,12 @@
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\helloDocker8.exe
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\appsettings.Development.json
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\appsettings.json
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\helloDocker8.dll
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\helloDocker8.deps.json
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\helloDocker8.runtimeconfig.json
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\helloDocker8.pdb
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\Microsoft.AspNetCore.OpenApi.dll
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\Microsoft.OpenApi.dll
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PrivateProject\docker_demo\support.dotnet7\dotnet8\helloDocker8\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
