@@ -37,4 +37,6 @@ jobs:
       working-directory: ./dotnet8/helloDocker8/
       run: dotnet publish -c Release -p:ContainerImageName=${{ secrets.DOCKER_USERNAME }}/hellodockerfromdotnet8
     - name: Push Image
-      run: docker push hungln88/hellodockerfromdotnet8:latest
+      run: |
+        docker images
+        docker push hungln88/hellodockerfromdotnet8:latest
