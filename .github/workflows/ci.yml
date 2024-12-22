@@ -26,6 +26,8 @@ jobs:
     needs:
       - build
     steps:
+    - name: Checkout
+      uses: actions/checkout@v3
     - name: Build Image
       working-directory: ./dotnet8/helloDocker8/
       run: dotnet publish -c Release -p:ContainerImageName=${{ secrets.DOCKER_USERNAME }}/hellodockerfromdotnet8
