@@ -7,8 +7,6 @@
     <ContainerRepository>hellodotnet8.0</ContainerRepository>
     <ContainerRuntimeIdentifier>linux-arm64</ContainerRuntimeIdentifier>
     <ContainerBaseImage>mcr.microsoft.com/dotnet/runtime:8.0</ContainerBaseImage>
-    <ContainerImageName>hungln8/hellodockerfromdotnet8</ContainerImageName>
-    <ContainerRegistry>docker.io</ContainerRegistry>
   </PropertyGroup>
   <ItemGroup>
     <ContainerPort Include="5001" Type="tcp" />
