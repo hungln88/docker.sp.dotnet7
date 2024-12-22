@@ -11,9 +11,12 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 8.0.x
+        
     - name: Restore dependencies
       working-directory: ./dotnet8/helloDocker8/
-      run: dotnet restore
+      run: |
+          ls -la
+          dotnet restore
     - name: Build
       working-directory: ./dotnet8/helloDocker8/
       run: dotnet build --no-restore
