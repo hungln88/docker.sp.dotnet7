@@ -40,7 +40,7 @@ jobs:
     - name: Build Image
       working-directory: ./dotnet8/helloDocker8/
       run: |
-        dotnet publish -c Release -p:ContainerImageName=${{ secrets.DOCKER_USERNAME }}/hellodockerfromdotnet8
+        dotnet publish -c Release -t:PublishContainer -p:ContainerImageName=${{ secrets.DOCKER_USERNAME }}/hellodockerfromdotnet8
         docker images
     - name: Push Image
       run: |
