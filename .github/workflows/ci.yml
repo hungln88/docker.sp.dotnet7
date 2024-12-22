@@ -43,6 +43,5 @@ jobs:
         dotnet publish -c Release -p:ContainerImageName=${{ secrets.DOCKER_USERNAME }}/hellodockerfromdotnet8
     - name: Push Image
       run: |
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/hellodockerfromdotnet8 .
         docker images
         docker push ${{ secrets.DOCKER_USERNAME }}/hellodockerfromdotnet8 --all-tags
